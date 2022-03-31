@@ -1,0 +1,20 @@
+#!/bin/sh
+#This is comment!
+echo "This is a testing script" #This is a comment, too!
+echo "This is 		a testing script"
+echo "This + is + a + tetsing + script"
+echo "This * is testing script"
+
+variable_mess="We have successfully worked with the variables"
+echo $variable_mess
+
+name_var="Aabid"
+echo "My name is $name_var"
+
+echo "my name is " $name_var
+
+num_one=5
+num_two=10
+
+echo {$num_on}e+$num_two
+

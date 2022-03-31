@@ -1,0 +1,10 @@
+#!/bin/sh
+x=1
+while[$x -le 5]
+do
+ echo "Welcome $x times"
+ read input_string
+ echo "You typed: $input_string"
+done
+
+#Working on while but it's not working out. 

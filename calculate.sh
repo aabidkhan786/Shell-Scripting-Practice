@@ -27,4 +27,6 @@ elif [ $op_operation == 4 ]
 then
     result=$(($num1 / $num2))
     echo "Division of $num1 & $num2 is: $result"
+else
+    echo "Invalid Option."
 fi
